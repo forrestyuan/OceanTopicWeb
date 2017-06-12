@@ -1,0 +1,50 @@
+﻿#bg img{height:350px;width: 100%;}
+.eyerow{color:springgreen;border-bottom:2px #00BFFF solid;background-color: #5E5E5E;}
+.board{text-align:center;border-radius:15px;position: absolute;top: 10%;color:white;width:50%;background-color: rgba(0,0,0,0.6);left:25%;}
+/*主体*/
+section{background-color: #EEEEEE;position:relative;width: 80%;margin: 0 auto;}
+.banner{width:100%;}
+.wrap_main{position: relative;display:inline-block;height:auto;width: 100%;}
+/*科普文列表*/
+.tec_list{border-right:2px solid black ;}
+.tec_list li{margin:10px auto;border-bottom: 1px solid black;}
+.tec_list li a{color: black;font-size: 18px;}
+.tec_list li i img{border-radius:30px ;}
+.tec_list li:hover a{color:#00BFFF;}
+/*分页*/
+.tec_fenye {display:block;background-color: #080808;height: 30px;}
+.tec_fenye a{display: inline-block;margin-left:10px;font-size: 20px;}
+.tec_fenye a:hover{color: springgreen;}
+#fenyeactive{color: springgreen;}
+/*右侧列表*/
+.tec-right a{color:#5E5E5E;}
+.tec-right li:hover a{color: #00BFFF;}
+.tec-right li{margin-bottom: 10px;}
+.tec-right li span{display: none;}
+.tec-tetail{display: none;}
+.tec-right li:hover{background-color:#245269;}
+.tec-right li:hover div{display:block;background-color: #00BFFF;text-indent: 2em;}
+.tec-right li:hover span{display:inline-block; color:yellow;float: right;font-size: x-large;}
+
+/*moive*/
+.eyerow{margin-top: 10px;}
+.video_list{text-align:center;display:inline-block;position:relative;border: solid 3px black;float: left;background-color: #EEEEEE;padding: 3px;}
+.video_list img{width:99.8%;height:99.8%;}
+.video_list span{bottom: 0;float: right;color:black;font-size: 18px;}
+@media only screen and (min-width:1200px){
+	.video_list{margin:5px;width:19%;}
+}
+@media only screen and (min-width:1000px) and (max-width:1200px){
+	.video_list{margin:1%;width:22%;}
+}
+@media only screen and (min-width:768px) and (max-width:1000px){
+	.video_list{width:25%;margin:1% auto;}
+}
+
+.overflow span a{color: blue;}
+/*overlay*/
+/*加载按钮事件*/
+.overlay{position:relative;font-size:20px;font:bolder;background:#F7ECB5;text-align:center;height:40px;width:30%;margin:50px auto 0 auto;clear:both;}
+.overlay hr{height: 10px;bottom:0;margin: 0;position: absolute;z-index:100;width: 100%;}
+.overlay:hover hr{background-color:slateblue;}
+.overlay:hover{cursor:pointer ;color:#46B8DA;}

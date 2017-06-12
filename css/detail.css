@@ -1,0 +1,23 @@
+﻿a{color:white;}
+.col-md-8{border-right:solid 2px black;background-color: lightgoldenrodyellow;}
+#bg img{height:350px;width: 100%;}
+.image1{
+	float:left;
+	padding:7px;
+	background-color:#ffffff;
+	border:1px solid #bac1a3;
+	}
+.test1{
+	font:20px/25px Verdana, Geneva, sans-serif;
+	color:#5b604c;
+	margin-bottom:10px;
+	padding:0 10px 0 0;
+}
+
+.image2{
+	float:right;
+	padding:7px;
+	background-color:#ffffff;
+	border:1px solid #bac1a3;
+}
+footer{clear: both;}

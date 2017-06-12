@@ -1,0 +1,175 @@
+﻿/*|——————————————————————————————————————————————————————————|*/
+/*|——————————————————————————————————————————————————————————|*/
+/*|*/                       /*|------|*/                   /*|*/
+/*|*/					    /*|  ^_^ |*/				   /*|*/
+/*|*/                       /*|------|*/                   /*|*/
+/*|*/          /*********---this is my demo---**********/  /*|*/
+/*|*/             /*****---我是YFC我为自己带盐---*****/     /*|*/
+/*|*/            /**/     /******------******/    /**/     /*|*/
+/*|*/           /* */ 	   /***-----***/         /* */     /*|*/
+/*|*/        /*|||*/    	 /*------*/         /*|||*/    /*|*/
+/*|*/            		   /*------*/                      /*|*/
+/*|*/            		 /*-*-*//*-*-*/                    /*|*/
+/*|*/                    /***/   /***/                     /*|*/
+/*|*/                   /***/    /***/                     /*|*/
+/*|*/                 /*******//*******/                   /*|*/
+/*|*/             /***********//***********/               /*|*/
+/*|——————————————————————————————————————————————————————————|*/   
+/*|——————————————————————————————————————————————————————————|*/      
+   
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}
+html{font-family:"Microsoft YaHei","微软雅黑","Hiragino Sans GB","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif,Lucida,Verdana,Serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;margin:0.67em 0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+a{color: #FFFFFF;}a:hover{color: #00BFFF;text-decoration: none;}
+.navbar-header{margin: 0;}
+/*-----------背景----------*/
+html,body{background-color:lightblue;padding:0;margin: 0;}
+html{overflow-x: hidden;}
+/*---------导航条---------*/
+#nav1{border: none;padding-top:4px;background-color:#555555;border-radius: 0;z-index: 1000;}
+#nav1 * a{text-align:center;color:white;
+font-size:1.3em;margin-left: 10px; border-radius:5px;
+box-shadow:0 0 1px #CCCCCC;height: 38px;padding-top:10px;}
+#nav1 .active a{color:white;background-color: #00BFFF;border-bottom:solid 2px white;}
+#nav1 .nav a:hover{color:#00BFFF;background-color:rgba(0,0,0,0.6);border-bottom:solid 2px white ;}
+#nav1 img{padding:1px 0 1px 1px;margin:0 40px 0 10px;width:110px;height: 40px;}
+/*---------脚部样式--------*/
+footer{display: block;bottom:0;width: 100%;height:100px;margin-top:100px;padding-top:20px;clear:both;}
+#a6 img{height:40px;width:40px;}              /*wechat*/
+#a7 img{height: 40px;width: 80px;}            /*商标*/
+footer #a6 img:hover{transition:all 1s ease-in;transform: scale(3,3) translateY(-50px);}
+footer span{color: #EEEEEE;display: inline-block;margin:2px;clear:both;}
+footer span:hover{cursor: pointer;}
+#a2{font-size: 24px;}
+/*---进行脚部媒体查询----*/
+@media (max-width: 768px) {#a1,#a3,#a4,#a5,#a6,#a7{display: none;}#a2{width:40%;margin: 0 60% 0 30%;}footer{height: 80px;} .appeal p{font-size:30px;}}
+@media only screen and (min-width:769px) and (max-width:1024px) {#a6,#a7{display: none;}#a1,#a2,#a3,#a4,#a5{margin:2px;}}
+/*--------分割条--------*/
+.fenge{margin:20px 50px 40px 50px;}
+/*-------分割样式2------*/
+.navbar-my{text-align:center; border-radius:15px;background-color:#eee;box-shadow: 3px 3px 3px #CCCCCC;color:deepskyblue;margin-top:10px ;}
+/*------隐藏滚动条------*/
+::-webkit-scrollbar{width:0;}
+/*-------回到顶部-------*/
+.totop{position: fixed;right: 10px;bottom:140px;z-index: 1000;display: none;} 
+.totop img{width: 50px;height: 70px;}
+
+/*面包屑导航*/
+.mianbaoxue{width: 80%;margin: 0 auto; font-size: 16px;}
+.bread {display: inline-block;background-color: #E5E5E5;width: 100%;list-style: none;color: #00BFFF;}
+.bread li{display: inline-block;float: left;list-style: none;color: #00FF7F;}
+.bread li a{color: #00BFFF;}
+
+/*页眉tag*/
+.eyerow{display: inline-block;width: 100%;text-align: left;border-bottom:white solid 6px;color: #FFFFFF;margin-bottom:10px;}
+.eyerow a{float: right;color:#0000FF;}
+.eyerow img{height:30px;width: 120px;}
+/*内容主体框*/
+.wrap_main{width:80%;margin: 0 auto;padding:0;clear: both;}
+.wrap_main a{color:deepskyblue;} #wrap_main a:hover{color:hotpink;}
+/*------气泡提示框-------*/
+.arrow_box {background:rgba(0,0,0,0.6);border: 1px solid #74f533;position:absolute;}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute
+	pointer-events: none;
+}
+
+.overflow{overflow: hidden;}
+.arrow_box:after {
+	border-color: rgba(145, 213, 204, 0);
+	border-top-color:rgba(0,0,0,0.6);
+	border-width: 20px;
+	margin-left: -20px;
+}
+.arrow_box:before {
+	border-color: rgba(116, 245, 51, 0);
+	border-top-color:rgba(0,0,0,0.6);
+	border-width: 21px;
+	margin-left: -21px;
+}
+/*-------------动画css----------*/
+/*animation 'L2R'*/
+@-moz-keyframes fadein{
+	from{opacity: 0; -webkit-opacity: 0; -moz-opacity: 0;}
+	to{opacity: 1; -webkit-opacity: 1; -moz-opacity: 1;}
+}
+@-ms-keyframes fadein{
+	from{opacity: 0; -webkit-opacity: 0; -moz-opacity: 0;}
+	to{opacity: 1; -webkit-opacity: 1; -moz-opacity: 1;}
+}
+@-webkit-keyframes fadein{
+	from{opacity: 0; -webkit-opacity: 0; -moz-opacity: 0;}
+	to{opacity: 1; -webkit-opacity: 1; -moz-opacity: 1;}
+}
+@keyframes fadein{
+	from{opacity: 0; -webkit-opacity: 0; -moz-opacity: 0;}
+	to{opacity: 1; -webkit-opacity: 1; -moz-opacity: 1;}
+}
+.fly,.board,.squre{animation: fadein 4s;-webkit-animation: fadein 4s; -moz-animation: fadein 4s;-ms-animation: fadein 4s; -moz-animation: fadein 4s;}
+
+/*animation '背景闪烁'*/
+@-moz-keyframes bglights{
+	0%{background-color: #99FF00;}
+	30%{background-color: #00FF7F;}
+	50%{background-color: #FFFF00;}
+	100%{background-color:#0099FF}
+}
+@-ms-keyframes bglights{
+	0%{background-color: #99FF00;}
+	30%{background-color: #00FF7F;}
+	50%{background-color: #FFFF00;}
+	100%{background-color:#0099FF}
+}
+@-ms-keyframes bglights{
+	0%{background-color: #99FF00;}
+	30%{background-color: #00FF7F;}
+	60%{background-color: #FFFF00;}
+	100%{background-color:#0099FF}
+}
+@keyframes bglights{
+	0%{background-color: #99FF00;}
+	30%{background-color: #00FF7F;}
+	60%{background-color: #FFFF00;}
+	100%{background-color:#0099FF}
+}
+.toutiao{animation: bglights 2s;-webkit-animation:bglights 2s; -moz-animation: bglights 2s;-ms-animation: bglights 2s;}
+/*animation '字体闪烁'*/
+@-moz-keyframes lights{
+	0%{color:darkslateblue}
+	20%{color:deepskyblue;}
+	40%{color:springgreen;}
+	60%{color:hotpink;}
+	80%{color:chocolate;}
+	100%{color: black;}
+}
+@-ms-keyframes lights{
+	0%{color:darkslateblue}
+	20%{color:deepskyblue;}
+	40%{color:springgreen;}
+	60%{color:hotpink;}
+	80%{color:chocolate;}
+	100%{color: black;}
+}
+@-webkit-keyframes lights{
+	0%{color:darkslateblue}
+	20%{color:deepskyblue;}
+	40%{color:springgreen;}
+	60%{color:hotpink;}
+	80%{color:chocolate;}
+	100%{color: black;}
+}
+@keyframes lights{
+	0%{color:darkslateblue}
+	20%{color:deepskyblue;}
+	40%{color:springgreen;}
+	60%{color:hotpink;}
+	80%{color:chocolate;}
+	100%{color: black;}
+}
+.appeal p{animation: lights 12s;-webkit-animation: lights 12s; -moz-animation: lights 12s;-ms-animation: lights 12s; }
+

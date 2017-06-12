@@ -1,0 +1,52 @@
+﻿/*新闻页面*/
+/*main*/
+#bg img{height:0;width: 100%;}
+/*webxiangmu*/
+.xiangmu{width:100%;text-align: center;position:relative;}
+figure{width:30%;height:auto;background-color:#222;border: 1px solid #eee;text-align: center;display: inline-block;margin:5px 5px 0 5px;}
+figure img{width:99%;height:30%;}
+figcaption{width:100%;font-size:13px;color: white;}
+figcaption a{font-size: 16px;}
+figure:hover{transition: all 0.5s;-webkit-transition: all 0.5s; -moz-transition: all 0.5s;-ms-transition: all 0.5s; -moz-transition: all 0.5s;
+			transform:scale(1.05,1.05);-webkit-transform: scale(1.05,1.05);-moz-transform: scale(1.05,1.05);-ms-transform: scale(1.05,1.05);-moz-transform: scale(1.05,1.05);
+			}
+/*加载按钮事件*/
+.overlay{position:relative;font-size:20px;font:bolder;background:#F7ECB5;text-align:center;height:40px;width:30%;margin:50px auto 0 auto;clear:both;}
+.overlay hr{height: 10px;bottom:0;margin: 0;position: absolute;z-index:100;width: 100%;}
+.overlay:hover hr{background-color:slateblue;}
+.overlay:hover{cursor:pointer ;color:#46B8DA;}
+
+/*新闻分类*/
+.new_type{display: inline-block;list-style:none;width: 100%;text-align: center;margin: 10px;}
+.new_type li{background-color:#222;color:#00BFFF;cursor:pointer;display:inline-block;list-style: none;width:32%;height:30px;border-radius: 30px;}
+.new_type li:hover{background-color:#00FF7F;color:white;}
+.new_type li{font-size: 20px;}
+.new_type li:first-child{background-color:#00FF7F;}
+/*呼吁*/
+.appeal{text-align:center;padding-top:70px;width:80%;height:0px;position:relative;background-color: #eee;margin: 0 auto;color: #101010;font-size: 50px;top:-300px;}
+
+
+/*新闻幻灯片改造css*/
+#myCarousel{margin-bottom:50px;height: 400px;text-indent: 2em;}
+#myCarousel .overflow{height:220px;}
+#myCarousel .overflow p{height:150px;overflow: hidden;}
+#myCarousel img{height: 200px;width:600px;margin-top: 5px;border: solid 1px white;}
+/*幻灯右侧新闻*/
+.newsshot h3{color:#000000;}
+.newsshot p{height: 40px;overflow: hidden;color:white;}
+.newsshot li{list-style: none;border: solid 1px springgreen;}
+.newsshot span{right: 0;display:inline-block;}
+.newsshot span a{color:#F7ECB5}
+.newsshot span a:hover{background-color: #00FF7F;}
+.newsshot .h4{margin: 0;}
+/*新闻主体*/
+.new-main{width:100%;overflow:hidden;}
+#sec-new1{background-color:skyblue;position: relative;}
+#sec-new2{background-color:lightgreen;position: relative;display: none;}
+#sec-new3{background-color:#f0e68c;position: relative;display: none;}
+
+/*content for pic*/
+
+
+
+
